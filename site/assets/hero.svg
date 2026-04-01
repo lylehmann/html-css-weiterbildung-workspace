@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">HTML Demo Hero</title>
+  <desc id="desc">Abstract card-style illustration with HTML and CSS labels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#e7f0ff" />
+      <stop offset="100%" stop-color="#fdf7ea" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)" rx="28" />
+  <rect x="56" y="58" width="250" height="160" rx="24" fill="#1d4ed8" opacity="0.95" />
+  <rect x="332" y="100" width="250" height="160" rx="24" fill="#fffdf8" stroke="#d9e2ec" stroke-width="3" />
+  <rect x="116" y="250" width="408" height="106" rx="26" fill="#ffffff" stroke="#d9e2ec" stroke-width="3" />
+  <text x="96" y="120" fill="#ffffff" font-family="Trebuchet MS, sans-serif" font-size="44" font-weight="700">HTML</text>
+  <text x="96" y="170" fill="#dbeafe" font-family="Trebuchet MS, sans-serif" font-size="24">semantic structure</text>
+  <text x="372" y="168" fill="#1f2933" font-family="Trebuchet MS, sans-serif" font-size="44" font-weight="700">CSS</text>
+  <text x="372" y="214" fill="#52606d" font-family="Trebuchet MS, sans-serif" font-size="24">clean styling</text>
+  <text x="156" y="312" fill="#1f2933" font-family="Trebuchet MS, sans-serif" font-size="28" font-weight="700">Learning workspace</text>
+  <text x="156" y="344" fill="#52606d" font-family="Trebuchet MS, sans-serif" font-size="20">notes, exercises, and a main demo site</text>
+</svg>

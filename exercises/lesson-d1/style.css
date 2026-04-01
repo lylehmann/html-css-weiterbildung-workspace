@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f7fb;
+  color: #102a43;
+  line-height: 1.5;
+}
+
+.lesson-shell {
+  width: min(calc(100% - 2rem), 760px);
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+}
+
+.lesson-block {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #d9e2ec;
+}
+
+.lesson-intro {
+  margin-top: 0.75rem;
+}
+
+h1,
+h2 {
+  color: #0b3c5d;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 0.75rem;
+}
+
+a,
+button,
+input[type="submit"] {
+  display: inline-block;
+  background-color: #0b3c5d;
+  color: #d9eefe;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  border: none;
+  padding: 0.6rem 0.9rem;
+  margin-top: 0.75rem;
+}
+
+a:hover,
+button:hover,
+input[type="submit"]:hover {
+  background-color: #1f6f8b;
+  color: #ffffff;
+}
+
+.blue-paras {
+  margin-top: 1rem;
+  background-color: #0b3c5d;
+  color: #d9eefe;
+  padding: 0.75rem;
+}
+
+#intro-para {
+  margin-top: 1rem;
+  background-color: #9fd3c7;
+  max-width: 28rem;
+  padding: 0.75rem;
+}
+
+.inline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+}
+
+.radio-group {
+  padding: 0.75rem;
+}
+
+.radio-group label {
+  display: block;
+  margin-top: 0.5rem;
+}

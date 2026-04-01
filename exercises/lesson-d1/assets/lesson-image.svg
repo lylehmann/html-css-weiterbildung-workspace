@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Lesson landscape illustration</title>
+  <desc id="desc">Simple landscape-style illustration used for the lesson page.</desc>
+  <rect width="960" height="420" fill="#dff1ff" />
+  <rect y="260" width="960" height="160" fill="#9fd3c7" />
+  <circle cx="760" cy="90" r="44" fill="#ffd166" />
+  <polygon points="80,300 250,120 420,300" fill="#5c7c9c" />
+  <polygon points="260,300 470,80 680,300" fill="#0b3c5d" />
+  <polygon points="560,300 720,150 880,300" fill="#4f6d7a" />
+</svg>

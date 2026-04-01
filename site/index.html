@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Demo Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="site-nav__brand" href="./index.html">HTML Demo</a>
+      <ul class="site-nav__links">
+        <li><a aria-current="page" href="./index.html">Home</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Main Demo</p>
+        <h1>Practice semantic HTML and cleaner CSS structure.</h1>
+        <p class="lead">
+          This page is the polished example for the repo. It keeps the code simple,
+          improves readability, and shows a clearer structure than the exercise files.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="./contact.html">Open Contact Page</a>
+          <a class="button button--secondary" href="#about">Read About This Project</a>
+        </div>
+      </div>
+      <img
+        class="hero__image"
+        src="./assets/hero.svg"
+        alt="Decorative illustration for the HTML demo site"
+      >
+    </section>
+
+    <section class="content-grid" aria-label="Demo highlights">
+      <article class="card">
+        <h2>Organized Structure</h2>
+        <p>
+          The repo now separates notes, exercises, and the main site so it is easier
+          to browse and maintain.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Lightweight Styling</h2>
+        <p>
+          Styles are grouped into base, layout, components, and responsive rules to
+          keep the CSS beginner-friendly.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Better Markup</h2>
+        <p>
+          The main pages use semantic sections, meaningful titles, and improved
+          link and form labeling.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="about">
+    <h2>About This Project</h2>
+    <p>
+      This repository is a learning workspace for HTML and CSS fundamentals, with
+      the `site/` folder acting as the clearest end-to-end example.
+    </p>
+  </footer>
+</body>
+</html>

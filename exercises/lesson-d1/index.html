@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson D1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="lesson-shell">
+    <h1>This Is My Website</h1>
+    <p class="lesson-intro">
+      This lesson page collects basic HTML elements: headings, links, images, and a simple form.
+    </p>
+
+    <section class="lesson-block">
+      <h2>Headings and Paragraphs</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <a href="./contact.html">Contact</a>
+
+      <p id="intro-para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur
+        veritatis delectus quis explicabo nesciunt sequi impedit quas recusandae unde.
+      </p>
+
+      <p class="blue-paras">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione
+        inventore, in alias vero ex eaque repudiandae esse earum omnis.
+      </p>
+    </section>
+
+    <section class="lesson-block">
+      <h2>Media and Actions</h2>
+      <img
+        src="./assets/lesson-image.svg"
+        alt="Landscape photo used as a lesson image example"
+        width="100%"
+      >
+
+      <div class="inline-actions">
+        <button type="button">Submit</button>
+        <a href="https://www.google.com">Google</a>
+        <span>This is a span.</span>
+      </div>
+    </section>
+
+    <section class="lesson-block">
+      <h2>Form Practice</h2>
+      <form action="#">
+        <label for="name">Name</label>
+        <input id="name" type="text" autocomplete="name">
+
+        <label for="email">E-Mail</label>
+        <input id="email" type="email" autocomplete="email">
+
+        <label for="color">Color</label>
+        <input id="color" type="color">
+
+        <label for="password">Password</label>
+        <input id="password" type="password" autocomplete="current-password">
+
+        <label for="date">Date</label>
+        <input id="date" type="date">
+
+        <label for="file">File Upload</label>
+        <input id="file" type="file">
+
+        <label for="pet-select">Select a Pet</label>
+        <select name="pets" id="pet-select">
+          <option value="">--Please choose an option--</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+        </select>
+
+        <fieldset class="radio-group">
+          <legend>Age Range</legend>
+          <label><input type="radio" id="age-1" name="age" value="30"> 0 - 30</label>
+          <label><input type="radio" id="age-2" name="age" value="60"> 31 - 60</label>
+          <label><input type="radio" id="age-3" name="age" value="100"> 61 - 100</label>
+        </fieldset>
+
+        <input type="submit" value="Submit Form">
+      </form>
+    </section>
+  </main>
+</body>
+</html>
