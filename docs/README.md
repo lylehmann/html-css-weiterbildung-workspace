@@ -36,4 +36,4 @@ This Wiki is organized from basic HTML structure to advanced CSS layouts. Each t
 
 ## 🐿️ Final Project
 When you've completed all modules, apply your skills here:
-- **[Squirrel-Wiki Project](https://github.com/lylehmann/eichhoernchen-wiki-projektarbeit)**
+- **[Squirrel-Wiki Project](https://github.com/lukas-crafts/eichhoernchen-wiki-projektarbeit)**

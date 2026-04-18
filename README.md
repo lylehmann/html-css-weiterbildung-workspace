@@ -30,4 +30,4 @@ To begin your learning journey, open the **Master Index** below. It contains the
 ## 🐿️ Final Project
 
 All lessons in this workspace prepare you for your final deliverable:
-- **[Squirrel-Wiki Project](https://github.com/lylehmann/eichhoernchen-wiki-projektarbeit)**
+- **[Squirrel-Wiki Project](https://github.com/lukas-crafts/eichhoernchen-wiki-projektarbeit)**

@@ -1,7 +1,7 @@
 # Course Context
 
 This workspace belongs to the same HTML/CSS Weiterbildung as the final GitHub project
-[`eichhoernchen-wiki-projektarbeit`](https://github.com/lylehmann/eichhoernchen-wiki-projektarbeit).
+[`eichhoernchen-wiki-projektarbeit`](https://github.com/lukas-crafts/eichhoernchen-wiki-projektarbeit).
 
 ## Relationship to the Final Project
 
